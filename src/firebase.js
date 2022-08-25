@@ -5,7 +5,7 @@ import { getAuth } from 'firebase/auth'
 import {getStorage} from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCB9_BX3a9uWzAQJ9RYons-ZlHMi2QWkP4",
+  apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: "cloud-stored-image.firebaseapp.com",
   projectId: "cloud-stored-image",
   storageBucket: "cloud-stored-image.appspot.com",
