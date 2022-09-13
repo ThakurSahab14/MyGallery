@@ -63,7 +63,7 @@ const Login = () => {
 
                 <button className='loginBTN' onClick={login}>SignIn</button>
 
-                <NavLink to='/register' id='createAcc'>Create account?</NavLink>
+                <NavLink to='/register' id='createAcc'>Create an account?</NavLink>
             </div>
         </>
     )
