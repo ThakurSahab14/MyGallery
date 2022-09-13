@@ -86,7 +86,7 @@ const Register = () => {
                 </div>
 
                 <button className='loginBTN' onClick={register}>SignUp</button>
-                <NavLink to='/login'>Have account?</NavLink>
+                <NavLink to='/login'>Have an account?</NavLink>
             </div>
         </>
 
